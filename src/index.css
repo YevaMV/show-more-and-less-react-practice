@@ -1,0 +1,17 @@
+body {
+  background-color: cadetblue;
+}
+
+button {
+  background-color: white;
+}
+
+.text_block {
+  color: white;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  border-radius: 2px;
+}
