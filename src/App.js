@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Card from './component/Card';
 import './index.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <section>
       <div className="text_block">
+        <Card />
         {showMore ? `${text.substring(0, max)}...` : text}
       </div>
       <button onClick={() => setShowMore(!showMore)}>
